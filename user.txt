@@ -1,3 +1,0 @@
-{
-    "corti": "$2y$10$r4v.Or9VvNKlFskyntckwONs7\/UWWyeDIEL2M3gReCroTm7ULGllS"
-}
