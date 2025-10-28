@@ -1,0 +1,94 @@
+/* style.css - semplice layout per il progetto */
+:root{
+  --bg:#f3f6fb;
+  --card:#ffffff;
+  --accent:#2b7cff;
+  --muted:#666;
+  --danger:#d9534f;
+  --success:#28a745;
+  font-family: Inter, Roboto, Arial, sans-serif;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--bg);
+  color:#111;
+  display:flex;
+  min-height:100vh;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.card{
+  width:100%;
+  max-width:520px;
+  background:var(--card);
+  border-radius:10px;
+  padding:22px;
+  box-shadow:0 6px 18px rgba(15,20,30,0.08);
+}
+
+h1,h2{margin:0 0 14px 0}
+label{
+  display:block;
+  margin-bottom:12px;
+}
+label span{
+  display:block;
+  margin-bottom:6px;
+  font-size:13px;
+  color:var(--muted);
+}
+input[type="text"], input[type="password"], input[type="date"]{
+  width:100%;
+  padding:10px 12px;
+  border-radius:6px;
+  border:1px solid #ddd;
+  font-size:15px;
+}
+.actions{
+  margin-top:14px;
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+button{
+  background:var(--accent);
+  color:#fff;
+  border:0;
+  padding:10px 14px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+}
+button:hover{opacity:0.95}
+.link{
+  color:var(--accent);
+  text-decoration:none;
+  font-size:14px;
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:12px;
+}
+th,td{
+  text-align:left;
+  padding:8px 6px;
+  border-bottom:1px solid #f0f0f0;
+  font-size:14px;
+}
+.actions-row a{
+  margin-right:8px;
+  text-decoration:none;
+  padding:6px 8px;
+  border-radius:6px;
+  font-size:13px;
+}
+.edit{ background:#eef7ff; color:var(--accent); }
+.delete{ background:#fff6f6; color:var(--danger); }
+.filter-form{ display:flex; gap:8px; align-items:center; margin-top:10px;}
+.small{font-size:13px; color:var(--muted);}
+.center{ text-align:center;}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Aggiungi Persona</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Aggiungi persona</h1>
+    <form method="post" action="aggiungi_persona.php" autocomplete="off">
+      <label><span>Codice fiscale</span><input type="text" name="cf" required></label>
+      <label><span>Nome</span><input type="text" name="nome" required></label>
+      <label><span>Cognome</span><input type="text" name="cognome" required></label>
+      <label><span>Data di nascita</span><input type="date" name="data_nascita" required></label>
+      <div class="actions">
+        <button type="submit">Salva</button>
+        <a class="link" href="persone.php">Annulla</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
