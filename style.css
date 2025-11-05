@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background:#f5f7fb; color:#222; }
+h1 { text-align:center; }
+.box { max-width:420px; margin:20px auto; padding:16px; background:#fff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08); }
+input[type=text], input[type=password], input[type=date] { width:100%; padding:8px; margin:6px 0; box-sizing:border-box; }
+button { padding:8px 12px; cursor:pointer; }
+a { color:#065fd4; }
+form.inline { display:flex; gap:8px; align-items:center; }
+.list { max-width:760px; margin:12px auto; }
